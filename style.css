@@ -52,7 +52,29 @@ section {
     width: 550px;
 
     }
+.apoio_texto2{
+    display: block; /* Faz a imagem ficar em um novo bloco, separada do texto */
+    margin: 0 auto; /* Adiciona um espaço ao redor da imagem */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
+    height: auto;
+    width: 550px;
+}
+.apoio_texto3{
+    display: block; /* Faz a imagem ficar em um novo bloco, separada do texto */
+    margin: 0 auto; /* Adiciona um espaço ao redor da imagem */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
+    height: auto;
+    width: 600px;
+}
+.apoio_texto4{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: 350px;
+}
 #secao1 {
+    height: 1500px;
     h2{
         font-size: 28px;
         display: flex;
@@ -74,10 +96,41 @@ section {
 
 #secao2 {
     background: whitesmoke;
+    h2{
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        text-align: justify;
+        margin: 0 auto;
+        width: 70%;
+    }
+    p{
+        text-align: justify;
+        margin: 0 auto;
+        width: 70%;
+    }
 }
 
 #secao3 {
     background: whitesmoke;
+    h2{
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        text-align: justify;
+        margin: 0 auto;
+        width: 70%;
+    }
+    p{
+        text-align: justify;
+        margin: 0 auto;
+        width: 70%;
+    }
+
 }
 #secao4 {
     background: whitesmoke;
