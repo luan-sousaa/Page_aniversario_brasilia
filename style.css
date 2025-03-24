@@ -8,6 +8,11 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
+.blaka-ink-regular {
+  font-family: "Blaka Ink", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 header {
     h1{
@@ -30,7 +35,9 @@ nav ul {
 }
 
 nav ul li {
+    font-family: 'header',cursive;
     font-size: 1.2em;
+    font-weight: 500;
     margin: 0 15px;
     margin-top: 50px;
 }
@@ -69,6 +76,8 @@ section {
     max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
     height: auto;
     width: 600px;
+    border-radius: 50px;
+    padding: 40px;
 }
 .apoio_texto4{
     display: block;
@@ -76,16 +85,43 @@ section {
     max-width: 100%;
     height: auto;
     width: 350px;
+    border-radius: 100%;
 }
-#secao1 {
-    height: 1500px;
+.conteudo{
+    display: inline-flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    gap: -300px;
+    p{
 
+        text-align: center;
+    }
+}
+#secao3{
+    h1{
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+}
+.titulo{
+    text-align: left;
+    display: flex;
+    margin-right: 60%;
+}
+#secao1, #secao2, #secao3, #secao4 , #secao5 {
+    height: 1350px;
     h1{
         display: flex;
         text-align: center;
         margin: 0 auto;
         width: 40%;
-
+        font-family: "Blaka Ink", system-ui ;
+        font-size: 40px;
     }
     h2{
         display: flex;
@@ -93,60 +129,20 @@ section {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+        font-family: "Blaka Ink", system-ui;
+        font-size: 50px;
 
     }
     p {
         text-align: justify;
         margin: 0 auto;
         width: 40%;
+        font-weight: 500;
     }
-    background: whitesmoke;
+    background: white;
 }
 
-#secao2 {
-    background: whitesmoke;
-    h2{
-        font-size: 28px;
-        display: flex;
-        justify-content: center;
-    }
-    h1{
-        text-align: justify;
-        margin: 0 auto;
-        width: 70%;
-    }
-    p{
-        text-align: justify;
-        margin: 0 auto;
-        width: 70%;
-    }
-}
 
-#secao3 {
-    background: whitesmoke;
-    h2{
-        font-size: 28px;
-        display: flex;
-        justify-content: center;
-    }
-    h1{
-        text-align: justify;
-        margin: 0 auto;
-        width: 70%;
-    }
-    p{
-        text-align: justify;
-        margin: 0 auto;
-        width: 70%;
-    }
-
-}
-#secao4 {
-    background: whitesmoke;
-}
-#secao5 {
-    background: whitesmoke;
-}
 
 footer {
     background: #333;
