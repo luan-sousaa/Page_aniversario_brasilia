@@ -13,6 +13,12 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 header {
     h1{
@@ -35,7 +41,6 @@ nav ul {
 }
 
 nav ul li {
-    font-family: 'header',cursive;
     font-size: 1.2em;
     font-weight: 500;
     margin: 0 15px;
@@ -79,7 +84,7 @@ section {
     border-radius: 50px;
     padding: 40px;
 }
-.apoio_texto4{
+.apoio_texto4 , .img_torre, .img_ponte{
     display: block;
     margin: 0 auto;
     max-width: 100%;
@@ -87,7 +92,8 @@ section {
     width: 350px;
     border-radius: 100%;
 }
-.conteudo{
+
+.div_catedral , .div_torre, .div_ponte{
     display: inline-flex;
     justify-content: center;
     padding: 30px;
@@ -98,23 +104,9 @@ section {
         text-align: center;
     }
 }
-#secao3{
-    h1{
-        display: flex;
-        text-align: left;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        
-    }
-}
-.titulo{
-    text-align: left;
-    display: flex;
-    margin-right: 60%;
-}
+
 #secao1, #secao2, #secao3, #secao4 , #secao5 {
-    height: 1350px;
+    height: 1650px;
     h1{
         display: flex;
         text-align: center;
@@ -138,6 +130,8 @@ section {
         margin: 0 auto;
         width: 40%;
         font-weight: 500;
+        font-family: "Playfair Display", serif;
+
     }
     background: white;
 }
