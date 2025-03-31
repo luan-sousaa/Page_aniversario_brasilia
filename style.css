@@ -126,7 +126,7 @@ section {
     height: 700px;
 }
 #secao5{
-    height: 1200px;
+    height: 800px;
 }
 #secao1, #secao2, #secao3, #secao4 , #secao5 {
     h1{
@@ -169,14 +169,30 @@ section {
 .gallery_pontejk , .gallery_estadio , .gallery_ministerio , .gallery_museu, .gallery_ponte_noite,.gallery_estadio_noite,.gallery_ministerio_noite,.gallery_museu_noite{
     height: 250px;
     width: 250px;
-    border-radius: 10px;
+    border-radius: 30px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.icons{
+    display: inline-flex;
+    padding: 5px;
+
 }
 footer {
-    background: #333;
+    background: darkgray;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
     color: white;
     text-align: center;
     padding: 20px;
 }
+
 a{
     color: white;
 }
