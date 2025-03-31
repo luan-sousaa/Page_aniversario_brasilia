@@ -121,14 +121,41 @@ section {
 }
 #secao3{
     height: 1800px;
+    h1{
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+        font-family: "Blaka Ink", system-ui ;
+        font-size: 40px;
+    }
+    h2{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-family: "Blaka Ink", system-ui;
+        font-size: 50px;
+
+    }
+    p {
+        text-align: justify;
+        margin: 0 auto;
+        width: 40%;
+        font-weight: 500;
+        font-family: "Playfair Display", serif;
+
+    }
+    background: white;
 }
+
 #secao4{
     height: 700px;
 }
 #secao5{
     height: 800px;
 }
-#secao1, #secao2, #secao3, #secao4 , #secao5 {
+#secao1, #secao2, #secao4 , #secao5 {
     h1{
         display: flex;
         text-align: center;
